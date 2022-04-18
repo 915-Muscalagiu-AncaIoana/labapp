@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM node:latest
 
-RUN mkdir /app/src
+RUN mkdir -p /app/src
 WORKDIR '/app/src'
 
 COPY package.json .
