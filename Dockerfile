@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM node:latest
+FROM node:16-alpine3.15
 
 RUN mkdir -p /app/src
 WORKDIR '/app/src'
